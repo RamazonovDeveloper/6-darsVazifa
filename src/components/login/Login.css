@@ -1,0 +1,114 @@
+.loginPage {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 450px;
+}
+
+.loginPage > img {
+  margin-left: 70px;
+  margin-right: auto;
+}
+
+.loginPage > h3 {
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 49px;
+  margin-bottom: 36px;
+}
+
+.loginPage__email, .loginPage__password {
+  width: 100%;
+  padding: 14px 80px 14px 14px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  margin-bottom: 25px;
+}
+
+.loginPage__email::-webkit-input-placeholder, .loginPage__password::-webkit-input-placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.loginPage__email:-ms-input-placeholder, .loginPage__password:-ms-input-placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.loginPage__email::-ms-input-placeholder, .loginPage__password::-ms-input-placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.loginPage__email::placeholder, .loginPage__password::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.loginPage > button {
+  width: 100%;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+  background: #1DA1F2;
+  border-radius: 76px;
+  border: none;
+  padding: 12px 50px;
+}
+
+.loginPage > div {
+  margin-top: 30px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.loginPage > div > button {
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #1DA1F2;
+}
+/*# sourceMappingURL=Login.css.map */

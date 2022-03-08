@@ -1,0 +1,10 @@
+.main-section{
+    display: flex;
+    width: 100%;
+    padding: 0px 30px;
+    /* overflow-x: hidden; */
+}
+
+body{
+    overflow-x: hidden;
+}

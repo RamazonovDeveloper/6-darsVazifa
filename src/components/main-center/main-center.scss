@@ -1,0 +1,25 @@
+.main-center{
+    width: 55%;
+    border-right: 1px solid #D8D8D8;
+    border-left: 1px solid #D8D8D8;
+
+    display: flex;
+    flex-direction: column;
+    // padding: 20px;
+
+    &-home{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        border-bottom: 1px solid #D8D8D8;
+        & > h2{
+            margin: 0;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 32px;
+            color: #000000;
+        }
+    }
+
+}
